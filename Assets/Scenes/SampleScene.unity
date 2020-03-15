@@ -165,7 +165,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 100000, guid: 7e30eee73c241d5448ce0ac372cf6602, type: 3}
       propertyPath: m_Name
-      value: HillBilly
+      value: BillyJoe
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 7e30eee73c241d5448ce0ac372cf6602, type: 3}
       propertyPath: m_LocalPosition.x
@@ -708,7 +708,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a6a4b8abd29c173458e16b4516adbabd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  turnSpeed: 20
+  _turnSpeed: 20
+  _speed: 1
 --- !u!54 &1885896640
 Rigidbody:
   m_ObjectHideFlags: 0
